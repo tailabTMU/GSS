@@ -4,7 +4,7 @@ This code is the implementation of subsampling for graph data in "Efficient Data
 
 The dataset is a private dataset of child and youth mental health patients. A sample record for each dataset file has been included in the `sample_data` directory. You need to have two files inside `data/fused_dataset` directory called `fixed_ed.csv` and `fixed_questionnaire.csv`.
 
-<strong>Paper:</strong> TBD
+<strong>Paper:</strong> Hirad Daneshvar and Reza Samavi. "Efficient Subsampling for GNN Downstream Tasks." The 17<sup>th</sup> Asian Conference on Machine Learning (ACML), 2025.
 
 ## Setup
 The code has been dockerized (using GPU). The requirements are included in the requirements.txt file. If you choose to use docker, you don't need to install the packages as it will automatically install them all. To use the docker, make sure you create a copy of _.env.example_ file and name it _.env_ and complete it according to your system. To use the dockerized version, you will need a Ubuntu based system.
